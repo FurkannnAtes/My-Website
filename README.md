@@ -1,5 +1,7 @@
 # My-Website
 
 Written in plain css/js/boostrap-5
+<br/>
 For question or suggestion:Furkan Ateş#8075
-işinize yaradıysa bana destek olmak için bu projeye bir yıldız verirseniz çok sevinirim :)
+<br/>
+If it worked for you, I would appreciate it if you give a star to this project to support me :)
