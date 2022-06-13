@@ -1,0 +1,439 @@
+/* roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:ital,wght@0,200;0,500;1,200&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+    background-color: lightblue;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(109, 55, 255);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/* NavGlass */
+#navGlass {
+    height: 80px;
+    position: fixed;
+    z-index: 10;
+}
+
+/* navbar */
+
+
+.my-name a {
+    color: rgb(109, 55, 255) !important;
+}
+
+
+
+.nav-link:hover {
+    color: rgb(109, 55, 255) !important;
+
+}
+
+
+
+
+
+/* wrapper */
+.wrapper {
+    background-color: rgb(244, 240, 255);
+}
+
+/* header */
+.header-container {
+    height: 750px;
+    padding-left: 120px;
+
+
+
+}
+
+.h-title {
+    border-left: 5px solid rgb(109, 55, 255);
+    margin-top: 200px;
+
+}
+
+.my-git {
+    background-color: rgb(109, 55, 255);
+    color: white;
+}
+
+.my-git:hover {
+    color: white;
+    background-color: rgb(63, 0, 238);
+}
+
+.h-img {
+    margin-top: 120px;
+}
+
+.h-img img {
+    border: solid 10px black;
+    width: 250px;
+}
+
+/* all section */
+section {
+    position: relative;
+}
+
+/* divider wave top */
+.custom-shape-divider-bottom-1654488621 {
+    position: absolute;
+    top: -300px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+.custom-shape-divider-bottom-1654488621 svg {
+    position: relative;
+    display: block;
+    width: calc(148% + 1.3px);
+    height: 300px;
+
+}
+
+.custom-shape-divider-bottom-1654488621 .shape-fill {
+    fill: rgb(109, 55, 255);
+}
+
+/* abaout */
+#abaout {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(109, 55, 255);
+}
+
+/* divider bottom  wave */
+.custom-shape-divider-top-1654494934 {
+    position: absolute;
+    bottom: -300px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1654494934 svg {
+    position: relative;
+    display: block;
+    width: calc(133% + 1.3px);
+    height: 300px;
+}
+
+.custom-shape-divider-top-1654494934 .shape-fill {
+    fill: rgb(109, 55, 255);
+}
+
+/* porgraming language */
+#prog-lang {
+    padding-bottom: 100px;
+    user-select: none;
+}
+
+.prog-title {
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 30px;
+}
+
+.lang-box {
+    display: flex;
+    height: 50px;
+    background-color: rgb(109, 55, 255);
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 30px;
+    padding: 0;
+    line-height: 50px;
+    font-size: 1.5rem;
+    transition: 300ms all;
+
+
+}
+
+.lang-box:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.lang-box.p-html:hover {
+    background-color: rgb(228, 77, 38);
+
+}
+
+.lang-box.p-css:hover {
+    background-color: rgb(38, 7, 228);
+}
+
+.lang-box.p-js:hover {
+    background-color: rgb(240, 219, 69);
+}
+
+.lang-box.p-bs:hover {
+    background-color: rgb(86, 61, 124);
+}
+
+.lang-box.p-react:hover {
+    background-color: rgb(97, 218, 251);
+}
+
+.lang-box.p-node:hover {
+    background-color: rgb(140, 200, 75);
+}
+
+.lang-box p {
+    padding-left: 10px;
+
+}
+
+.lang-box img {
+    width: 50px;
+}
+
+/* Projects */
+.example-container {
+    width: 90%;
+    padding-bottom: 50px;
+}
+
+.example-box {
+    max-width: 350px;
+    border-radius: 9px;
+    padding: 0;
+    padding-bottom: 10px;
+    transition: 500ms all;
+
+}
+
+.example-box:hover {
+
+    cursor: pointer;
+    position: relative;
+    top: -15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.example-box img {
+    border-radius: 10px;
+
+}
+
+.e-contents {
+    padding-left: 10px;
+}
+
+.e-link {
+    position: relative;
+    text-decoration: none;
+    color: rgb(109, 55, 255);
+    font-size: larger;
+    transition: width 300ms all;
+    padding-bottom: 5px;
+
+}
+
+.e-link::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    background-color: rgb(109, 55, 255);
+    transition: width 300ms ease;
+
+}
+
+.e-link:hover::before {
+    width: 100%;
+
+}
+
+/* footer */
+.footer {
+    position: relative;
+
+    height: 150px !important;
+}
+
+.f-link {
+    line-height: 130px;
+
+}
+
+.f-date {
+    margin-left: 60px;
+    line-height: 200px;
+}
+
+.social-media-icons {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.social-media-icons i {
+    font-size: 1.7rem;
+
+    color: rgb(109, 55, 255);
+}
+
+.social-media-icons a {
+
+    margin-right: 30px;
+
+}
+
+
+
+
+
+
+/* Mobil  Appearance*/
+@media only screen and (max-width: 992px) {
+
+    /* navbar */
+    #navGlass {
+        background-color: white !important;
+    }
+
+    #mainNav {
+        background-color: white;
+
+    }
+
+
+    /* divider wave top */
+    .custom-shape-divider-bottom-1654488621 {
+        position: absolute;
+        top: -150px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+
+    .custom-shape-divider-bottom-1654488621 svg {
+
+        height: 150px;
+
+    }
+
+    /* divider bottom  wave */
+    .custom-shape-divider-top-1654494934 {
+
+        bottom: -150px;
+
+    }
+
+    .custom-shape-divider-top-1654494934 svg {
+
+        height: 150px;
+    }
+
+
+
+    /* header */
+    .header-container {
+        height: 500px;
+        padding-left: 0px;
+
+    }
+
+    .h-title {
+        border-left: 0;
+        margin-top: 100px;
+
+    }
+
+    /* abaout */
+    .a-contents {
+        padding-top: 20px !important;
+
+    }
+
+    .a-title {
+        padding-top: 0 !important;
+
+    }
+
+    .example-box {
+        max-width: 250px;
+
+
+    }
+
+    /* footer */
+    .footer {
+        position: relative;
+
+        height: 150px !important;
+        display: block !important;
+        padding-left: 10px !important;
+        padding-bottom: 200px;
+
+    }
+
+    .f-link {
+        line-height: 30px;
+        text-align: center;
+        padding-top: 10px;
+
+
+
+    }
+
+    .f-date {
+        margin-left: 0px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .social-media-icons {
+        position: absolute;
+        text-align: center;
+
+        bottom: 10px;
+        left: 100px;
+
+
+    }
+
+    .social-media-icons i {
+        font-size: 1.7rem;
+
+        color: rgb(109, 55, 255);
+    }
+
+    .social-media-icons a {
+
+        margin-right: 10px;
+
+    }
+
+}
